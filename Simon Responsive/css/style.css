@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+#top{
+  
+}
+
+#middle{
+  
+}
+
+#bottom{
+  text-align:center;
+  vertical-align:center;
+  padding:20px;
+}
+
+#turnCount{
+  background-color:black;
+  width:100px;
+  height:90px;
+  margin-top:.5%;
+  margin-left:3%;
+  color:green;
+  font-size:24px;
+  border:5px solid white;
+  text-align:center;
+}
+
+#strictStatus{
+  width:100px;
+  height:90px;
+  margin-left:3%;
+  background-color:black;
+  cursor:arrow;
+  border:5px solid white;
+  color:green;
+  margin-top:.5%;
+  font-size:48px;
+  text-align:center;
+  padding:10px;
+}
+
+body{
+  background-image:url("https://dl.dropboxusercontent.com/s/2lunn12ro8p6u9l/wood_back.jpg?dl=0?")
+}
+
+.container-fluid{
+  margin-top:60px;
+  background-color:gray;
+  height:600px;
+  border-radius:50px;
+  box-shadow:.1em 2em .1em black;
+}
+
+.red{
+  width: 30%;
+  height: 150px;
+  border:5px solid black;
+  background-color:red;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:.1em 1em .1em black;
+}
+
+.blue{
+  width: 30%;
+  height: 150px;
+  border:5px solid black;
+  background-color:blue;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:.1em 1em .1em black;
+
+}
+
+.green{
+  width:30%;
+  height:150px;
+  background-color:green;
+  border:5px solid black;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:.1em 1em .1em black;
+  
+}
+
+.yellow{
+  width:30%;
+  height:150px;
+  border:5px solid black;
+  background-color:yellow;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:.1em 1em .1em black;
+  
+}
+
+.start{
+  width:10%;
+  height:100px;
+  border:5px solid black;
+  background-color:pink;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:.1em .5em .1em black;
+  font-size:250%;
+  color:black;
+  text-align:center;
+}
+
+.strict{
+  width:10%;
+  height:100px;
+  border:5px solid black;
+  background-color:brown;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:.1em .5em .1em black;
+  font-size:250%;
+  color:black;
+  
+}
+
+.red:active {
+  background-color: #ff6666;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+.yellow:active {
+  background-color: #ffff80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.green:active {
+  background-color: #80ff80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.blue:active {
+  background-color: #6666ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.start:active {
+  background-color: pink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.strict:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
